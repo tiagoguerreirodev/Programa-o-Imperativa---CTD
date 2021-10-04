@@ -4,7 +4,7 @@
 
 - `aluno.js`: é a classe Aluno, usada para criar os alunos distintos. Pode-se adicionar notas, incrementar faltas e calcular a média do aluno. Recebe o nome do aluno.
 - `estudantes.js`: é a lista de estudantes utilizada, uma array de objetos do tipo Aluno. Ela é gerada através de um loop for, onde 3 notas randômicas, de 0 a 10, são adicionadas a cada aluno, bem como uma quantidade randômica de faltas, de 0 a 3. É possível manipular a quantidade de estudantes gerada alterando o valor da constante NUM_ALUNOS.
-- `atividade-final.js`: é o arquivo principal do projeto. Define o objeto curso, que utilizada a lista de estudantes importada de `estudantes.js`, e possui métodos para adicionar alunos, verificar se um aluno foi aprovado e verificar se todos os alunos foram aprovados.
+- `atividade-final.js`: é o arquivo principal do projeto. Define o objeto curso, que utiliza a lista de estudantes importada de `estudantes.js`, e possui métodos para adicionar alunos, verificar se um aluno foi aprovado e verificar se todos os alunos foram aprovados.
 
 Por padrão, o código lista no console a lista completa de estudantes e uma array de booleans indicando quais alunos foram aprovados ou reprovados. Pode-se modificar o que é imprimido no console apenas adicionando ou removendo `console.log()` após a definição do objeto literal curso, em `estudantes.js`.
 
